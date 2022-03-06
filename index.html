@@ -5,39 +5,49 @@
     <title>Plant-Based Vegan Lifestyle</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body id="mainBackground">
+    <button id="darkModeButton" onclick="toggleDarkMode()">Change to Dark Mode</button>
     <ul>
-        <li><a href="default.asp">Home</a></li>
-        <li><a href="blog.asp">Blog</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resources.html">Resources</a></li>
         <li><a href="contact.asp">Contact</a></li>
         <li><a href="about.asp">About</a></li>
       </ul>
     &nbsp;  
     <h1>ThriveWell</h1>
-    <h2>Plant-Based Vegan Lifestlye</h2>
+    <h2>Plant-Based Vegan Lifestlye
+       <button id="resources"><a href="resources.html">More Info</a></button> 
+    </h2>
     <p id="subject"> 
         <span id="veganism">What is veganism?</span> 
         <a>Veganism is the practice of abstaining from the use of animal products, particularly in diet, and an associated philosophy that rejects the commodity status of animals. An individual who follows the diet or philosophy is known as a vegan. Distinctions may be made between several categories of veganism.
         </a> 
     </p>
-    <img src="https://domf5oio6qrcr.cloudfront.net/medialibrary/4969/c92020e0-e209-403d-a334-2b544b03a9d4.jpg" alt="picture of fruits and veggies shaped into a heart"> 
-    <section>
+    <img src="https://domf5oio6qrcr.cloudfront.net/medialibrary/4969/c92020e0-e209-403d-a334-2b544b03a9d4.jpg" alt="picture of fruits and veggies shaped into a heart">
+    <section id="comparison">
+        <h3>Plant-Based vs. Vegan</h3>
+        <div><img id="versus-img" src="https://www.forksoverknives.com/wp-content/uploads/FOK-Plant-Based-vs-Vegan-social-UPDATED-COLOR.jpg" alt="chart comparing vegan and plant-based"></div>
+        <p class="differences">There continues to be confusion between vegan vs. plant-based. Although plant-based can be misinterpretted as "just eating plants", it does not mean that someone who eats plant-based is a vegan. Those who are plant-based consume animal products although the frequency could be less than someone who is on a S.A.D. (Standard American Diet)</p>
         <p class="questions">What does it mean to be plant-based vegan?</p>
     <p class="answers">
         Someone who considers themselves to be a plant-based vegan has a diet that consists mainly of whole fruits and vegetables, and seeds and nuts.
     </p>
-    <p class="questions">How did you get into learning about this topic?</p>
-    <p class="answers">
-        I watched a lot of vegan Youtubers before I became vegan and admired their meals and lifestyles. Once I transitioned I began to do more research on my own.
-    </p>
-    <p class="questions">Explain this topic to me like I’m 5</p>
-    <p class="answers">
-        Someone who eats a plant-based vegan “diet” does not eat anything that comes from an animal/living being. Instead of buying packaged food from the store they focus on buying fresh fruits and veggies and things that do not have a lot of weird ingredients. 
-    </p>
-    <p class="questions">Convince everyone to learn more about this topic</p>
-    <p id="end-result" class="answers">
-        A plant-based vegan lifestyle will improve your physical, mental and spiritual health.
-    </p>
     </section>
+    <section>
+        <p>Where do you get your protein?!</p>
+        <div id="protein-charts">
+            <img class="protein-charts" src="https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-9/140039143_2712313285688425_7551031078415655149_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=2c4854&_nc_ohc=0utbk-APQMwAX_kF2dH&_nc_ht=scontent-iad3-2.xx&oh=00_AT8Q0QnQiunRhwKGpnI0BZ1lUz_YZ_NAo8G71GIk3Reg7g&oe=624A3F66" alt="line graph of vegan protein options">
+            <img class="protein-charts" src="https://i.pinimg.com/originals/9e/4c/13/9e4c1398bcad9c5539646ea81be58f15.jpg" alt="comparing plant vs. meat protein">
+        </div>
+        <p class="answers">
+            Someone who eats a plant-based vegan “diet” does not eat anything that comes from an animal/living being. Instead of buying packaged food from the store they focus on buying fresh fruits and veggies and things that do not have a lot of weird ingredients. 
+        </p>
+        <div id="benefits"><h3>Benefits</h3></div>
+        <p id="end-result" class="answers">
+            A plant-based vegan lifestyle will improve your physical, mental and spiritual health. Don't just take my word for it.
+        </p>
+    </section>
+    <footer>Personal Project for G{Code} 2022</footer>
+    <script src="main.js"></script>
 </body>
 </html>
